@@ -6,7 +6,7 @@ train_dir = data_dir + 'train.npz'
 test_dir = data_dir + 'test.npz'
 files = ['train', 'test']
 bert_model = 'pretrained_bert_models/bert-base-chinese/'
-roberta_model = 'pretrained_bert_models/chinese_roberta_wwm_large_ext/'
+roberta_model = 'pretrained_bert_models/chinese-roberta-wwm-ext-large/'
 model_dir = os.getcwd() + '/experiments/clue/'
 log_dir = model_dir + 'train.log'
 case_dir = os.getcwd() + '/case/bad_case.txt'
@@ -31,7 +31,7 @@ min_epoch_num = 5
 patience = 0.0002
 patience_num = 10
 
-gpu = '1'
+gpu = ''
 
 if gpu != '':
     device = torch.device(f"cuda:{gpu}")

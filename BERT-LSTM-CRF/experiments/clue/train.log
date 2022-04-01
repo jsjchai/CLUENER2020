@@ -276,3 +276,45 @@
 2020-11-29 02:04:47,485:INFO: f1 score of organization: 0.8053691275167785
 2020-11-29 02:04:47,486:INFO: f1 score of position: 0.7882219705549264
 2020-11-29 02:04:47,486:INFO: f1 score of scene: 0.7286063569682151
+2022-04-01 16:05:47,172:INFO: device: cuda:1
+2022-04-01 16:05:47,172:INFO: --------Process Done!--------
+2022-04-01 16:05:47,367:INFO: Model name 'pretrained_bert_models/bert-base-chinese/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/bert-base-chinese/' is a path or url to a directory containing tokenizer files.
+2022-04-01 16:05:47,368:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/vocab.txt. We won't load it.
+2022-04-01 16:05:47,368:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/added_tokens.json. We won't load it.
+2022-04-01 16:05:47,368:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/special_tokens_map.json. We won't load it.
+2022-04-01 16:05:47,368:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/tokenizer_config.json. We won't load it.
+2022-04-01 16:32:05,321:INFO: device: cuda:1
+2022-04-01 16:32:05,322:INFO: --------Process Done!--------
+2022-04-01 16:32:21,280:INFO: --------Dataset Build!--------
+2022-04-01 16:32:21,281:INFO: --------Get Dataloader!--------
+2022-04-01 16:46:07,707:INFO: device: cuda:1
+2022-04-01 16:46:07,708:INFO: --------Process Done!--------
+2022-04-01 16:46:22,952:INFO: --------Dataset Build!--------
+2022-04-01 16:46:22,952:INFO: --------Get Dataloader!--------
+2022-04-01 17:07:33,282:INFO: device: cuda:1
+2022-04-01 17:07:33,282:INFO: --------Process Done!--------
+2022-04-01 17:07:50,050:INFO: --------Dataset Build!--------
+2022-04-01 17:07:50,050:INFO: --------Get Dataloader!--------
+2022-04-01 18:50:24,246:INFO: device: cpu
+2022-04-01 18:50:24,247:INFO: --------Process Done!--------
+2022-04-01 18:50:40,210:INFO: --------Dataset Build!--------
+2022-04-01 18:50:40,210:INFO: --------Get Dataloader!--------
+2022-04-01 18:51:16,251:INFO: device: cpu
+2022-04-01 18:51:16,252:INFO: --------Process Done!--------
+2022-04-01 18:51:31,404:INFO: --------Dataset Build!--------
+2022-04-01 18:51:31,404:INFO: --------Get Dataloader!--------
+2022-04-01 18:53:02,495:INFO: device: cpu
+2022-04-01 18:53:02,495:INFO: --------Process Done!--------
+2022-04-01 18:53:43,819:INFO: --------Dataset Build!--------
+2022-04-01 18:53:43,820:INFO: --------Get Dataloader!--------
+2022-04-01 18:55:39,998:INFO: device: cpu
+2022-04-01 18:55:39,998:INFO: --------Process Done!--------
+2022-04-01 18:55:55,512:INFO: --------Dataset Build!--------
+2022-04-01 18:55:55,512:INFO: --------Get Dataloader!--------
+2022-04-01 18:56:12,470:INFO: device: cpu
+2022-04-01 18:56:12,471:INFO: --------Process Done!--------
+2022-04-01 18:58:19,410:INFO: device: cpu
+2022-04-01 18:58:19,410:INFO: --------Process Done!--------
+2022-04-01 18:58:35,924:INFO: --------Dataset Build!--------
+2022-04-01 18:58:35,924:INFO: --------Get Dataloader!--------
+2022-04-01 18:58:39,990:INFO: --------Start Training!--------

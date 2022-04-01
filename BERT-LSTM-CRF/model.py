@@ -1,6 +1,7 @@
-from transformers.modeling_bert import *
+from torch import nn
 from torch.nn.utils.rnn import pad_sequence
 from torchcrf import CRF
+from transformers import BertPreTrainedModel, BertModel
 
 
 class BertNER(BertPreTrainedModel):
